@@ -1,6 +1,6 @@
 services:
   udpbd:
-    build: {"dockerfile": "Dockerfile"}
+    build: .
     container_name: udbpd_service
     volumes:
       - /mnt/ps2:/ps2
